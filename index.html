@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <h1>Portofolio</h1>
+        <!-- menu toggle für mobile -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="site-wrapper">
+    <section id="Home" class="Home" data-aos="fade-down">
+        <h2>Welcome To My <span>Portofolio</span></h2>
+        <p>Student Developer | Telkom University</p>
+            <div class="penting">
+                <a href="CV_Alwan RIfky Muhana.pdf" download="CV_Alwan Rifky Muhana" class="CV">Download CV</a>
+                <button onclick="scrollToContact()">Hubungi Saya</button>
+            </div>
+
+            <div class="sosmed">
+                <a href="https://github.com/moehanaa" target="blank" class="link"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/alwanmhn" target="blank" class="link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/alwanmhn_?igsh=cmhveWU4NjdudWt4" target="blank" class="link"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+    </section>
+
+    <section id="About" class="About" data-aos="zoom-out" data-aos-delay="100">
+        <h2>About Me</h2>
+            <div class="bintang">
+                <p><span>✨</span> Transforming ideas into digital experiences <span>✨</span></p>
+            </div>
+        <div class="main" data-aos="fade-right" data-aos-delay="200">
+            <div class="isi">
+                <h3><span class="gradient">Hello, I'm</span> <br> <span>Alwan Rifky Muhana</span></h3>
+                <p>An Information Systems freshman at Telkom University who is energetic and adaptable, with strong communication skills. Experienced in collaborative teamwork form various high school projects. highly motivated to learn and apply new technologies, and enthusiastic about actively contributing to communities focused on digital development and innovation.
+                    <br>
+                        <br>
+                I see problems as opportunities to improve. My strength lies in identifying the root of a misunderstanding within a team and addressing it calmly. I believe that most obstacles can be cleared through clear communication and a positive attitude.
+                </p>
+                    
+            </div>
+            
+            <div class="profile" data-aos="fade-up" data-aos-delay="100">
+                <img src="foto.jpeg" alt="foto" class="foto">
+            </div>
+        </div>
+
+        <div class="quotes" data-aos="fade-up" data-aos-delay="100">
+            <p>"impossible is just opinion"</p>
+        </div>
+    </section>
+
+    <section id="Skills" class="Skills">
+        <h2 class="Skills-judul" data-aos="zoom-in-up" data-aos-delay="100">Programming Skills</h2>
+        <div class="Skills-grid">
+            <div class="Skills-card" data-aos="zoom-in-right" data-aos-delay="100">
+                <div class="Skills-header">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <p>Creating. structured, semantic, markup for web application.</p>
+                <div class="proficiency">
+                    <span>Proficiency:</span>
+                    <div class="progres-bar">
+                        <div class="progres" style="width: 50%"></div>
+                    </div>
+                    <span class="persen">50%</span>
+                </div>
+            </div>
+
+            <div class="Skills-card" data-aos="zoom-in-up" data-aos-delay="100">
+                <div class="Skills-header">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <p>Styling web application with modern CSS techniques.</p>
+                <div class="proficiency">
+                    <span>Proficiency:</span>
+                    <div class="progres-bar">
+                        <div class="progres" style="width: 40%"></div>
+                    </div>
+                    <span class="persen">40%</span>
+                </div>
+            </div>
+
+            <div class="Skills-card" data-aos="zoom-in-left" data-aos-delay="100">
+                <div class="Skills-header">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <p>Collaborative platform for code hosting and project management.</p>
+                <div class="proficiency">
+                    <span>Proficiency:</span>
+                    <div class="progres-bar">
+                        <div class="progres" style="width: 10%"></div>
+                    </div>
+                    <span class="persen">10%</span>
+                </div>
+            </div>
+
+            <div class="Skills-card" data-aos="zoom-in-right" data-aos-delay="100">
+                <div class="Skills-header">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>VS Code</h3>
+                </div>
+                <p>Efficient code editing with extensions and customizations.</p>
+                <div class="proficiency">
+                    <span>Proficiency:</span>
+                    <div class="progres-bar">
+                        <div class="progres" style="width: 25%"></div>
+                    </div>
+                    <span class="persen">25%</span>
+                </div>
+            </div>
+
+            <div class="Skills-card" data-aos="zoom-in-up" data-aos-delay="100">
+                <div class="Skills-header">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h3>Responsive Design</h3>
+                </div>
+                <p>Creating layouts that work across all device sizes.</p>
+                <div class="proficiency">
+                    <span>Proficiency:</span>
+                    <div class="progres-bar">
+                        <div class="progres" style="width: 5%"></div>
+                    </div>
+                    <span class="persen">5%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="Contact" data-aos="zoom-out" data-aos-delay="100">
+        <div class="card">
+            <h2>Contact Information</h2>
+
+            <div class="contact-item">
+                <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-text">
+                    <h3>Location</h3>
+                    <p>Bandung, West Java, Indonesia</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-text">
+                    <h3>Email</h3>
+                    <p>alwanmhn21@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-text">
+                    <h3>Phone</h3>
+                    <p>---</p>
+                </div>
+            </div>
+
+            <div class="connect-section">
+                <p>Connect With Me</p>
+                <div class="sosmed-icon">
+                    <a href="https://github.com/moehanaa" target="blank" class="link"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/alwanmhn" target="blank" class="link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/alwanmhn_?igsh=cmhveWU4NjdudWt4" target="blank" class="link"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer class="footer-simple">
+        <div class="footer-content">
+            <div class="footer-info">
+            <h3 class="footer-name">Alwan</h3>
+            <p>Student Developer from Jambi, Indonesia</p>
+        </div>
+        <p>© 2026 <span>Alwan Rifky Muhana</span> <span>. All rights reserved.</span></p>
+            <div class="footer-sosmed">
+                <a href="https://github.com/moehanaa" target="blank" class="link"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/alwanmhn" target="blank" class="link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/alwanmhn_?igsh=cmhveWU4NjdudWt4" target="blank" class="link"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+ <script src="main.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false,
+            duration: 1000,
+        });
+    </script>
+</body>
+</html>
