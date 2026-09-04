@@ -284,9 +284,9 @@ nav a {
     margin-top: 100px;
     width: 380px !important;
     height: 380px !important;
+    min-width: 100
     min-height: 100%;
     border-radius: 50%;
-    object-fit: cover !important;
     padding:10px;
     background: linear-gradient(135deg, #2c5364);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
