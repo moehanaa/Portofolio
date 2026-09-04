@@ -288,7 +288,6 @@ nav a {
     min-width: 100%;
     border-radius: 50%;
     object-fit: cover !important;
-    object-position: 70% 30% !important;
     padding:10px;
     background: linear-gradient(135deg, #2c5364);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
