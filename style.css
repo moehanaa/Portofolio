@@ -643,13 +643,21 @@ nav a {
 
     #Contact,
     .Contact {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
+        height: auto !important;     
+    min-height: unset !important;
+    position: relative !important;
+    top: 0 !important;
+    margin-top: 40px !important; 
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
     }
-    
+
+    [class*="contact"] {
+    position: static !important; /* Matikan absolute jika ada */
+    margin: 0 auto 30px auto !important;
+    max-width: 90% !important;
+  }
     
     .penting {
         flex-direction: column; /* Tombol Download CV & Hubungi jadi tumpuk */
