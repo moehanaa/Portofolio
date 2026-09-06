@@ -621,10 +621,6 @@ nav a {
 
 /* Untuk HP (Layar di bawah 600px) */
 @media (max-width: 600px) {
-    body, html {
-        overflow-x: hidden;
-    }
-
     [data-aos] {
         opacity: 1 !important;
         transform: none !important;
