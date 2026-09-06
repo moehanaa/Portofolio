@@ -686,6 +686,8 @@ nav a {
         width: 100% !important;
         max-width: 320px !important;
         margin: 20px auto !important;
+        height: auto !important;
+        padding-bottom: 25px !important;
   }
 }
     
