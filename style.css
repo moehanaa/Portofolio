@@ -609,21 +609,13 @@ nav a {
 
 /* Responsivitas: Jika layar lebih kecil (tablet), jadikan 2 kolom */
 @media (max-width: 992px) {
-    .Skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-
-
-@media (max-width: 992px) {
     .About {
         flex-direction: column; /* Gambar dan teks jadi bertumpuk atas-bawah */
         text-align: center;
     }
     
     .Skills-grid {
-        grid-template-columns: repeat(2, 1fr); /* Skill jadi 2 kolom */
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
