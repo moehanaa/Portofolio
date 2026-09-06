@@ -624,6 +624,12 @@ nav a {
     body, html {
         overflow-x: hidden;
     }
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+    }
     
     h1 {
         font-size: 2rem; /* Perkecil ukuran font agar tidak terpotong */
