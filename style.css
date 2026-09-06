@@ -621,13 +621,33 @@ nav a {
 
 /* Untuk HP (Layar di bawah 600px) */
 @media (max-width: 600px) {
+    body, html {
+        overflow-x: hidden;
+    }
+    
     h1 {
         font-size: 2rem; /* Perkecil ukuran font agar tidak terpotong */
     }
     
-    .Skills-grid {
-        grid-template-columns: 1fr; /* Skill jadi 1 kolom saja */
+    .skills-grid > div,
+    .contanct-info,
+    .contact-container,
+    .card {
+        width: 100% !important;
+        max-width: 330px !important;
+        margin: 0 auto 20px auto !important;
+        box-sizing: border-box !important;
     }
+
+    #Contact,
+    .Contact {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    
     
     .penting {
         flex-direction: column; /* Tombol Download CV & Hubungi jadi tumpuk */
@@ -659,8 +679,17 @@ nav a {
     .main { flex-direction: column; }
     .isi { margin: 20px auto; }
     .isi p { margin-right: 0; margin-left: 0; }
-    .foto { width: 90%; max-width: 300px; margin: 20px auto; }
-    
+    .foto {
+        width: 220px !important;
+        height: 220px !important;
+        aspect-ratio: 1 / 1 !important;
+        border-radius: 50% !important;
+        object-fit: cover !important;
+        object-position: 78% 25% !important;
+        margin: 20px auto !important;
+        display: block !important;
+    }
+
     /* general padding adjustments */
     .site-wrapper { padding: 0 10px; }
     /* nav heading smaller margin on phones */
